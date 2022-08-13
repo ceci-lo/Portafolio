@@ -1,0 +1,13 @@
+#body {
+  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
+}
+.container1 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.saludo {
+  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
+  font-size: 3rem;
+}
