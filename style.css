@@ -1,13 +1,24 @@
-#body {
+body {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
 }
-.container1 {
+.container1,
+.container2 {
   padding-top: 10rem;
   padding-bottom: 10rem;
+  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
 }
 .saludo {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
   font-size: 3rem;
+}
+
+.aboutMe {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.2rem;
 }
