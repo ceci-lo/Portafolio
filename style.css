@@ -2,11 +2,14 @@ body {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
 }
+.navColor {
+  background-color: rgb(72, 201, 176) !important;
+}
 .container1,
 .container2 {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  align-items: center;
+
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
 }
