@@ -29,3 +29,8 @@ body {
 .img1 {
   border-radius: 50%;
 }
+.contact-list {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
