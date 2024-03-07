@@ -31,8 +31,22 @@ body {
 }
 .contact-list {
   padding-top: 16px;
-  display: flex;
-  justify-content: space-around;
+  padding-bottom: 16px;
+  display: block;
   background-color: #585b59;
   color: rgb(72, 201, 176) !important;
+}
+.contact-list p {
+  font-size: 25px;
+}
+.contact-list-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-list-icons i:hover {
+  color: white;
+  transform: translateY(-10px);
+}
+.proyectos {
+  padding: 15px;
 }
