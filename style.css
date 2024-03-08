@@ -54,7 +54,7 @@ body {
   transform: translateY(-10px);
 }
 .proyectos {
-  padding: 15px;
+  padding: 160px 0px;
 }
 .title {
   padding-bottom: 25px;
@@ -64,4 +64,8 @@ body {
 }
 .titles-container2 {
   color: rgb(72, 201, 176);
+}
+.titles-container3 {
+  font-family: "Space Mono", monospace !important;
+  padding: 20px 0px 20px 0px;
 }
