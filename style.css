@@ -69,3 +69,8 @@ body {
   font-family: "Space Mono", monospace !important;
   padding: 20px 0px 20px 0px;
 }
+.education-list{
+  background-color: black;
+  color:  rgb(72, 201, 176);
+  font-family: "Space Mono", monospace !important;
+}
