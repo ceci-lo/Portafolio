@@ -13,6 +13,9 @@ body {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
 }
+.container2 {
+  background-color: black;
+}
 .saludo {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
@@ -26,6 +29,7 @@ body {
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1.2rem;
+  color: rgb(59, 121, 108);
 }
 .img1 {
   border-radius: 50%;
@@ -54,4 +58,10 @@ body {
 }
 .title {
   padding-bottom: 25px;
+}
+.etiqueta {
+  font-size: 20px !important;
+}
+.titles-container2 {
+  color: rgb(72, 201, 176);
 }
