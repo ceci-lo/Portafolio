@@ -73,4 +73,13 @@ body {
   background-color: black;
   color:  rgb(72, 201, 176);
   font-family: "Space Mono", monospace !important;
+  padding: 160px 0px;
+
+}
+.education-list li { 
+  list-style:none;
+  padding: 10px 0px 10px 0px;
+}
+.education-list h3{
+    color: #dab034;
 }
