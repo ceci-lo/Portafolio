@@ -17,6 +17,7 @@ body {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
   font-size: 3rem;
+  padding: 30px;
 }
 
 .aboutMe {
@@ -36,17 +37,21 @@ body {
   background-color: #585b59;
   color: rgb(72, 201, 176) !important;
 }
-.contact-list p {
+.contact-list h4 {
   font-size: 25px;
 }
 .contact-list-icons {
   display: flex;
   justify-content: space-around;
+  padding-top: 25px;
 }
 .contact-list-icons i:hover {
-  color: white;
+  color: rgb(72, 201, 176) !important;
   transform: translateY(-10px);
 }
 .proyectos {
   padding: 15px;
+}
+.title {
+  padding-bottom: 25px;
 }
