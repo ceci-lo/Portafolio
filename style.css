@@ -48,6 +48,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 25px;
+  padding-right: 180px;
 }
 .contact-list-icons i:hover {
   color: rgb(72, 201, 176) !important;
