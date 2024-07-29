@@ -67,12 +67,15 @@ body {
   font-size: 20px !important;
 }
 .etiqueta:hover {
- 
   transform: translateY(-10px);
+  box-shadow:  2px 2px 2px #879487 ;
 }
 
 .titles-container2 {
   color: rgb(72, 201, 176);
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 .titles-container3 {
   font-family: "Space Mono", monospace !important;
@@ -104,14 +107,7 @@ body {
 #downloadTitle{
   color: aliceblue !important;
 }
-.card-1-texto{
-  margin-bottom: 0%;
-}
-.card-1{
-  margin-right:10px; 
-  margin-bottom: 10px;
-  text-decoration: none;
-}
+
 .card-1:hover{
   transform: translateY(-10px);
   box-shadow:  10px 5px 5px  #879487;
@@ -119,5 +115,4 @@ body {
 }
 .etiquetaCard{
   font-size: 18px;
-  margin-left: 15px;
 }
