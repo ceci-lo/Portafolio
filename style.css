@@ -108,7 +108,9 @@ body {
 #downloadTitle{
   color: aliceblue !important;
 }
-
+.card-1 {
+  margin: 10px;
+}
 .card-1:hover{
   transform: translateY(-10px);
   box-shadow:  10px 5px 5px  #879487;
@@ -116,4 +118,11 @@ body {
 }
 .etiquetaCard{
   font-size: 18px;
+}
+
+@media screen and (min-width:367px) {
+  .container1{
+    text-align: center;
+    justify-content: center;
+  }
 }
