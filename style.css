@@ -60,7 +60,7 @@ background-repeat: no-repeat;
   color: black;
 }
 .proyectos {
-  padding: 160px 0px;
+  padding: 60px 0px;
 }
 .title {
   padding-bottom: 25px;
@@ -108,6 +108,9 @@ background-repeat: no-repeat;
 }
 #downloadTitle{
   color: aliceblue !important;
+}
+.card-group{
+  justify-content: space-around;
 }
 .card-1 {
   margin: 10px;
