@@ -9,12 +9,13 @@ body {
 .container2 {
   padding-top: 10rem;
   padding-bottom: 10rem;
-
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
 }
 .container2 {
   background-color: black;
+background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path d="M1000 0H0v52C62.5 28 125 4 250 4c250 0 250 96 500 96 125 0 187.5-24 250-48V0Z" fill="rgb(72 201 176)"></path></svg>');
+background-repeat: no-repeat;
 }
 .saludo {
   font-family: "Inconsolata", monospace;
@@ -29,7 +30,7 @@ body {
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1.2rem;
-  color: rgb(59, 121, 108);
+  color: #fff;
 }
 .img1 {
   border-radius: 50%;
@@ -48,6 +49,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 25px;
+  padding-right: 180px;
 }
 .contact-list-icons i:hover {
   color: rgb(72, 201, 176) !important;
@@ -58,7 +60,7 @@ body {
   color: black;
 }
 .proyectos {
-  padding: 160px 0px;
+  padding: 60px 0px;
 }
 .title {
   padding-bottom: 25px;
@@ -67,12 +69,15 @@ body {
   font-size: 20px !important;
 }
 .etiqueta:hover {
- 
   transform: translateY(-10px);
+  box-shadow:  2px 2px 2px #879487 ;
 }
 
 .titles-container2 {
   color: rgb(72, 201, 176);
+  margin-left: 80px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 .titles-container3 {
   font-family: "Space Mono", monospace !important;
@@ -103,4 +108,34 @@ body {
 }
 #downloadTitle{
   color: aliceblue !important;
+}
+.card-group{
+  justify-content: space-around;
+}
+.card-1 {
+  margin: 10px;
+}
+.card-1:hover{
+  transform: translateY(-10px);
+  box-shadow:  10px 5px 5px  #879487;
+ 
+}
+.etiquetaCard{
+  font-size: 18px;
+}
+
+
+
+@media screen and (max-width:991px) {
+  .container1{
+    text-align: center;
+    justify-content: center;
+  }
+  .contact-list-icons{
+    justify-content: center;
+    padding: 10px;
+  }
+  .contact-list-icons i {
+    margin-right: 20px;
+  }
 }

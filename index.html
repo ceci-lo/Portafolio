@@ -25,7 +25,7 @@
 <body>
   <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary navColor">
-      <div class="container-fluid">
+      <div class="container">
 
         <a class="navbar-brand" href="#">Cecilia Lorenzini</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#container2">About me</a>
+              <a class="nav-link active" aria-current="page" href="#container2">Sobre mi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#container3">Proyectos</a>
@@ -51,12 +51,11 @@
     </nav>
 
     <div class="container">
-      <div class="row ustify-content-center container1" id="container1">
-        <div class="col-6"><img class="img1" src="./img/unnamed.webp"></div>
-        <div class="col-6 saludo">
+      <div class="row justify-content-center container1" id="container1">
+        <div class="col-lg-6 col-md-4 col-sm-12"><img class="img1" src="./img/unnamed.webp"></div>
+        <div class="col-lg-6 col-md-4 col-sm-12 saludo">
           <h1 class="title">¡Hola! soy cecilia</h1>
           <div class="contact-list-icons">
-           <i class="fa fa-twitter fa-1x"></i>
             <a href="https://www.linkedin.com/in/ceci-lo/"> <i class="fa fa-linkedin-square fa-1x" aria-hidden="true"></i></a>
             <a href="https://github.com/ceci-lo"> <i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
             <a href="lcecilia8147@gmail.com"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
@@ -75,17 +74,17 @@
           <h2 class="titles-container2">Skills</h2>
           <div class="col-8 offset-2 aboutMe">
 
-            Soy desarrolladora de software, estudio la carrera 'Tecnologias de
+            Soy desarrolladora de software, estudio la carrera 'Tecnologías de
             la información' en UTN frsf, en donde aprendí a programar con java,
-            hibernete y MySQL. Ademas soy autodidacta, estoy aprendiendo
-            javascript por mi cuenta y react por mi cuenta.
+            hibernete y MySQL. Además soy autodidacta, estoy aprendiendo
+            javascript y react por mi cuenta.
           </div>
           <div>
             <h4 class="titles-container2">Frontend</h4>
            
             <span class="offset-2 badge text-bg-danger etiqueta">java</span>
-            <span class="offset-1 badge text-bg-warning etiqueta">HTML</span>
-            <span class="offset-1 badge text-bg-primary etiqueta">CSS</span>
+            <span class="badge text-bg-warning etiqueta">HTML</span>
+            <span class="badge text-bg-primary etiqueta">CSS</span>
           </div>
           <div>
             <h4 class="titles-container2">Backend</h4>
@@ -94,7 +93,7 @@
           <div>
             <h4 class="titles-container2" id="container2" >Aprendiendo</h4>
             <span class="offset-2 badge text-bg-danger etiqueta">Javascript</span>
-            <span class="offset-1 badge text-bg-success etiqueta">Vue 3</span>
+            <span class="badge text-bg-success etiqueta">React</span>
             <!--<span class="badge text-bg-success etiqueta">Node JS</span> -->
           </div>
         </div>
@@ -107,37 +106,56 @@
     <div class="row proyectos" id="container3">
       <h2 class="titles-container3">Proyectos</h2>
       <div class="card-group">
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="./img/fotoproyecto1.jpeg" class="card-img-top" alt="...">
+        <!--Tarjeta 1-->
+        <div class="col-lg-3 col-sm-12 ">
+        
+          <div class="card card-1" >
+            <a href="https://comingsoonlandingp.netlify.app/">
+              <img src="./img/Captura de pantalla 2024-07-07 180224.png" class="card-img-top" alt="home page coming soon"></a>
             <div class="card-body">
-              <p class="card-text">Proyecto 1</p>
+        
+              <p class="card-text card-1-texto">coming soon home page</p>
+              <span class="offset-1 badge text-bg-warning etiquetaCard">HTML</span>
+              <span class="offset-1 badge text-bg-primary etiquetaCard">CSS</span>
+              <span class="offset-2 badge text-bg-danger etiquetaCard">Javascript</span>
             </div>
+        
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="./img/fotoproyecto1.jpeg" class="card-img-top" alt="...">
+        <!--Tarjeta 2-->
+        <div class="col-lg-3 col-sm-12">
+        
+          <div class="card card-1" >
+            <a href="https://calculadoradehipoteca.netlify.app/">
+              <img src="./img/mortgageDesktop.png" class="card-img-top" alt="home page coming soon"></a>
             <div class="card-body">
-              <p class="card-text">Proyecto 2</p>
+        
+              <p class="card-text card-1-texto">Mortgage calculator</p>
+              <span class="offset-1 badge text-bg-warning etiquetaCard">HTML</span>
+              <span class="offset-1 badge text-bg-primary etiquetaCard">CSS</span>
+              <span class="offset-2 badge text-bg-danger etiquetaCard">Javascript</span>
             </div>
+        
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="./img/fotoproyecto1.jpeg" class="card-img-top" alt="...">
+        
+        <!--Tarjeta 3-->
+          <div class="col-lg-3 col-sm-12 ">
+        
+          <div class="card card-1"  >
+            <a href="https://productecommercepage.netlify.app/">
+              <img src="./img/e_commerce.png" class="card-img-top" style="height: 150px;" alt="product page e_commerce"></a>
             <div class="card-body">
-              <p class="card-text">Proyecto 3</p>
+        
+              <p class="card-text card-1-texto">e_commerce product page</p>
+              <span class="offset-1 badge text-bg-warning etiquetaCard">HTML</span>
+              <span class=" badge text-bg-primary etiquetaCard">CSS</span>
+              <span class=" badge text-bg-danger etiquetaCard">Javascript</span>
             </div>
+        
           </div>
         </div>
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <img src="./img/fotoproyecto1.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Proyecto 4</p>
-            </div>
-          </div>
+      
         </div>
       </div>
     </div>
