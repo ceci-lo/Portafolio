@@ -124,7 +124,10 @@ background-repeat: no-repeat;
   font-size: 18px;
 }
 
-
+.--bd-violet{
+  color: #fff;
+  background-color: #712cf9;
+}
 
 @media screen and (max-width:991px) {
   .container1{
