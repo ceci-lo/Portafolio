@@ -13,7 +13,7 @@ body {
   font-family: "Space Mono", monospace;
 }
 .container2 {
-  background-color: black;
+  background-color: oklab(0% 0 0 / 0.993);
 background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path d="M1000 0H0v52C62.5 28 125 4 250 4c250 0 250 96 500 96 125 0 187.5-24 250-48V0Z" fill="rgb(72 201 176)"></path></svg>');
 background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@ background-repeat: no-repeat;
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: 1.2rem;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.568);;
 }
 .img1 {
   border-radius: 50%;
@@ -75,9 +75,9 @@ background-repeat: no-repeat;
 
 .titles-container2 {
   color: rgb(72, 201, 176);
-  margin-left: 80px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 .titles-container3 {
   font-family: "Space Mono", monospace !important;
