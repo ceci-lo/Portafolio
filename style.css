@@ -1,3 +1,10 @@
+.subtitle {
+  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
+  color: rgb(180, 224, 216);
+
+
+}
 body {
   font-family: "Inconsolata", monospace;
   font-family: "Space Mono", monospace;
@@ -64,6 +71,14 @@ background-repeat: no-repeat;
 }
 .title {
   padding-bottom: 25px;
+}
+.description-text{
+  font-size: 14px;
+  font-family: 'Courier New', Courier;
+  letter-spacing: 0,2px;
+  color: #636262;
+  text-align: justify;
+
 }
 .etiqueta {
   font-size: 20px !important;
